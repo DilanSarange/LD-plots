@@ -4,6 +4,6 @@ This repository contains codes I used for plotting LD decay. LD is calculated us
 
 LD_heatmap.sh is based on the https://github.com/BGI-shenzhen/LDBlockShow
 
-usage:  bash ./LD_heatmap.sh <vcf.gz> <region> <outfile>
+usage:  bash ./LD_heatmap.sh [vcf.gz] [region] [outfile]
   
   ex: bash ./LD_heatmap.sh GeneA.vcf.gz Cq2A:150000:155000 GeneA_LD_heatmap
